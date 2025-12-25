@@ -275,3 +275,21 @@ footer {
   border-radius: 50%;
   vertical-align: middle;
 }
+@media (max-width:768px) {
+    .hero{
+        flex-direction: column;
+        text-align: center;
+        padding: 3rem 1.5rem;
+    }
+    .hero-text{
+        margin-bottom: 2rem;
+    }
+    .hero-image img {
+        margin-top: 1.5rem;
+        max-width: 100%;
+        height: auto;
+    }
+    .btn.primary {
+        margin-top: 1.2rem;
+    }
+}
