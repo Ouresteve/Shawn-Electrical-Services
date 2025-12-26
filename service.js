@@ -7,7 +7,7 @@ const texts = [
   "Electrical Supplies"
 ];
 
-let i = 0, j = 0;
+let i = 0, j = 0, charIndex=0;
 const typingText = document.getElementById("typing-text");
 
 function type() {
@@ -28,8 +28,9 @@ type();
 
 const images = [
   "images/service1.jfif",
-  "images/repair.jfif",
-  "images/service3.jfif"
+  "images/cctv3.jpg",
+  "images/wiring.jpg",
+  "images/hero.jpg"
 ];
 
 let imgIndex = 0;
