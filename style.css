@@ -410,6 +410,12 @@ footer {
        height: auto;
 
     }
+  .products-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(200px, 1fr));
+  gap: 1.5rem;
+  padding: 1.5rem;
+}
 }
 
 
@@ -517,9 +523,6 @@ footer {
   display: flex;
   justify-content: space-between;
   padding: 1rem;
-
-  width: 100%;
-
 }
 
 .products-top input {
@@ -546,7 +549,7 @@ footer {
 /* GRID */
 .products-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(120px,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 1.5rem;
   padding: 1.5rem;
 }
@@ -587,6 +590,11 @@ footer {
   max-height: 90vh;
   overflow-y:auto ;
   box-sizing: border-box;
+}
+.modalQty {
+  border-radius: 20px;
+  color: #000;
+  background-color: var(--white);
 }
 
 .modal-content img {
