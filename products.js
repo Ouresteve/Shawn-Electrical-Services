@@ -1,46 +1,58 @@
 // PRODUCTS DATA
 const products = [
-  // Solar & Power
-  { id: 1, name: "Solar Panel 100W", price: 8000, image: "images/solar.jfif" },
-  { id: 2, name: "Solar Charge Controller 10A", price: 3500, image: "images/solar_controller.jpg" },
-  { id: 3, name: "Inverter 1000W", price: 12000, image: "images/inverter.jpg" },
-  { id: 4, name: "Battery 12V 100Ah", price: 14000, image: "images/battery.jpg" },
-
-  // Wiring & Accessories
-  { id: 5, name: "Network Cable 50m", price: 2500, image: "images/network_cable.jpg" },
-  { id: 6, name: "Electrical Wire 2.5mm² (100m)", price: 6000, image: "images/wire_2_5.jpg" },
-  { id: 7, name: "Electrical Wire 1.5mm² (100m)", price: 4500, image: "images/wire_1_5.jpg" },
-  { id: 8, name: "Cable Clips Pack", price: 150, image: "images/cable_clips.jpg" },
-
-  // Lighting
-  { id: 9, name: "LED Bulb 9W", price: 350, image: "images/led_bulb.jpg" },
-  { id: 10, name: "Tube Light 18W", price: 700, image: "images/tube_light.jpg" },
-  { id: 11, name: "Smart Light Switch", price: 1200, image: "images/smart_switch.jpg" },
-
-  // Security & CCTV
-  { id: 12, name: "CCTV Camera", price: 3000, image: "images/cctv.jpg" },
-  { id: 13, name: "DVR 4CH", price: 9000, image: "images/dvr.jpg" },
-  { id: 14, name: "Motion Sensor Light", price: 1500, image: "images/motion_sensor.jpg" },
-
-  // Electrical Tools
-  { id: 15, name: "Multimeter", price: 2500, image: "images/multimeter.jpg" },
-  { id: 16, name: "Wire Stripper Tool", price: 600, image: "images/wire_stripper.jpg" },
-  { id: 17, name: "Electrical Tape Pack", price: 300, image: "images/electrical_tape.jpg" },
-
-  // Appliances & Fittings
-  { id: 18, name: "Extension Socket 3m", price: 1200, image: "images/extension_socket.jpg" },
-  { id: 19, name: "Circuit Breaker 32A", price: 1500, image: "images/circuit1.jfif" },
-  { id: 20, name: "Electric Fence Energizer", price: 4500, image: "images/fence_energizer.jpg" },
-  { id: 21, name: "Fence Insulators (10pcs)", price: 150, image: "images/fence_insulator.jpg" },
-
-  // CCTV / Security Accessories
-  { id: 22, name: "CCTV Mount Bracket", price: 350, image: "images/cctv_bracket.jpg" },
-  { id: 23, name: "CCTV Power Adapter", price: 500, image: "images/cctv_adapter.jpg" },
-
-  // Misc
-  { id: 24, name: "LED Strip Light 5m", price: 1200, image: "images/led_strip.jpg" },
-  { id: 25, name: "Surge Protector 4 Socket", price: 900, image: "images/surge_protector.jpg" }
+  { id:1, name:"CCTV Camera", price:3000, image:"https://images.unsplash.com/photo-1581092580492-1e73a7c3bc2b?auto=format&fit=crop&w=400&q=80" },
+  { id:2, name:"Network Cable 50m", price:2500, image:"https://images.unsplash.com/photo-1591035897819-7b4d58f6b78d?auto=format&fit=crop&w=400&q=80" },
+  { id:3, name:"Electric Fence Insulator", price:150, image:"https://images.unsplash.com/photo-1601681216337-c5f4224a72f5?auto=format&fit=crop&w=400&q=80" },
+  { id:4, name:"Solar Panel 100W", price:12000, image:"https://images.unsplash.com/photo-1613750557428-f26b70b0e9f3?auto=format&fit=crop&w=400&q=80" },
+  { id:5, name:"LED Tube Light 18W", price:400, image:"https://images.unsplash.com/photo-1611950647224-87087c2a09fc?auto=format&fit=crop&w=400&q=80" },
+  { id:6, name:"Electric Socket Outlet", price:350, image:"https://images.unsplash.com/photo-1611950599830-74d7f9110f3c?auto=format&fit=crop&w=400&q=80" },
+  { id:7, name:"Circuit Breaker 32A", price:1200, image:"https://images.unsplash.com/photo-1603500966212-4caa720d3f26?auto=format&fit=crop&w=400&q=80" },
+  { id:8, name:"LED Bulb 9W", price:200, image:"https://images.unsplash.com/photo-1611950647224-87087c2a09fc?auto=format&fit=crop&w=400&q=80" },
+  { id:9, name:"Electric Fan 16\"", price:2500, image:"https://images.unsplash.com/photo-1612817155260-efb36c94032f?auto=format&fit=crop&w=400&q=80" },
+  { id:10, name:"Extension Socket 4 Ports", price:500, image:"https://images.unsplash.com/photo-1603500966212-4caa720d3f26?auto=format&fit=crop&w=400&q=80" },
+  { id:11, name:"Electric Fence Charger", price:7500, image:"https://images.unsplash.com/photo-1591035897819-7b4d58f6b78d?auto=format&fit=crop&w=400&q=80" },
+  { id:12, name:"Voltage Stabilizer 1000W", price:5500, image:"https://images.unsplash.com/photo-1581092580492-1e73a7c3bc2b?auto=format&fit=crop&w=400&q=80" },
+  { id:13, name:"LED Flood Light 50W", price:1500, image:"https://images.unsplash.com/photo-1611950599830-74d7f9110f3c?auto=format&fit=crop&w=400&q=80" },
+  { id:14, name:"Solar Inverter 1kVA", price:22000, image:"https://images.unsplash.com/photo-1613750557428-f26b70b0e9f3?auto=format&fit=crop&w=400&q=80" },
+  { id:15, name:"Electric Heater 2000W", price:3500, image:"https://images.unsplash.com/photo-1612817155260-efb36c94032f?auto=format&fit=crop&w=400&q=80" },
+  { id:16, name:"Motion Sensor Light", price:1200, image:"https://images.unsplash.com/photo-1603500966212-4caa720d3f26?auto=format&fit=crop&w=400&q=80" },
+  { id:17, name:"Electric Fence Wire", price:180, image:"https://images.unsplash.com/photo-1591035897819-7b4d58f6b78d?auto=format&fit=crop&w=400&q=80" },
+  { id:18, name:"Smart Switch", price:900, image:"https://images.unsplash.com/photo-1611950647224-87087c2a09fc?auto=format&fit=crop&w=400&q=80" },
+  { id:19, name:"Electric Kettle", price:2500, image:"https://images.unsplash.com/photo-1583217340708-5f7e8d0b2b7d?auto=format&fit=crop&w=400&q=80" },
+  { id:20, name:"LED Ceiling Light 36W", price:2000, image:"https://images.unsplash.com/photo-1611950647224-87087c2a09fc?auto=format&fit=crop&w=400&q=80" },
+  { id:21, name:"Mini Solar Panel 50W", price:7000, image:"https://images.unsplash.com/photo-1613750557428-f26b70b0e9f3?auto=format&fit=crop&w=400&q=80" },
+  { id:22, name:"Electric Drill 500W", price:3500, image:"https://images.unsplash.com/photo-1612817155260-efb36c94032f?auto=format&fit=crop&w=400&q=80" },
+  { id:23, name:"Smart Plug", price:1200, image:"https://images.unsplash.com/photo-1611950647224-87087c2a09fc?auto=format&fit=crop&w=400&q=80" },
+  { id:24, name:"Electrical Tape", price:150, image:"https://images.unsplash.com/photo-1612817155260-efb36c94032f?auto=format&fit=crop&w=400&q=80" },
+  { id:25, name:"LED Strip Light 5m", price:800, image:"https://images.unsplash.com/photo-1611950647224-87087c2a09fc?auto=format&fit=crop&w=400&q=80" },
+  { id:26, name:"Electric Socket 2-in-1 USB", price:600, image:"https://images.unsplash.com/photo-1611950599830-74d7f9110f3c?auto=format&fit=crop&w=400&q=80" },
+  { id:27, name:"Electric Panel Box", price:5500, image:"https://images.unsplash.com/photo-1581092580492-1e73a7c3bc2b?auto=format&fit=crop&w=400&q=80" },
+  { id:28, name:"Battery Charger 12V", price:3200, image:"https://images.unsplash.com/photo-1612817155260-efb36c94032f?auto=format&fit=crop&w=400&q=80" },
+  { id:29, name:"Electric Fan 12\"", price:2000, image:"https://images.unsplash.com/photo-1612817155260-efb36c94032f?auto=format&fit=crop&w=400&q=80" },
+  { id:30, name:"LED Wall Light 10W", price:700, image:"https://images.unsplash.com/photo-1611950599830-74d7f9110f3c?auto=format&fit=crop&w=400&q=80" },
+  { id:31, name:"Electric Water Pump", price:15000, image:"https://images.unsplash.com/photo-1613750557428-f26b70b0e9f3?auto=format&fit=crop&w=400&q=80" },
+  { id:32, name:"LED Flood Light 100W", price:3000, image:"https://images.unsplash.com/photo-1611950599830-74d7f9110f3c?auto=format&fit=crop&w=400&q=80" },
+  { id:33, name:"Solar Battery 12V 100Ah", price:18000, image:"https://images.unsplash.com/photo-1613750557428-f26b70b0e9f3?auto=format&fit=crop&w=400&q=80" },
+  { id:34, name:"Extension Cord 10m", price:400, image:"https://images.unsplash.com/photo-1603500966212-4caa720d3f26?auto=format&fit=crop&w=400&q=80" },
+  { id:35, name:"Electric Wire 10m", price:500, image:"https://images.unsplash.com/photo-1591035897819-7b4d58f6b78d?auto=format&fit=crop&w=400&q=80" },
+  { id:36, name:"LED Bulb 12W", price:250, image:"https://images.unsplash.com/photo-1611950647224-87087c2a09fc?auto=format&fit=crop&w=400&q=80" },
+  { id:37, name:"Smart Light Switch", price:1100, image:"https://images.unsplash.com/photo-1611950647224-87087c2a09fc?auto=format&fit=crop&w=400&q=80" },
+  { id:38, name:"Electric Fan 18\"", price:3000, image:"https://images.unsplash.com/photo-1612817155260-efb36c94032f?auto=format&fit=crop&w=400&q=80" },
+  { id:39, name:"LED Panel Light 36W", price:2500, image:"https://images.unsplash.com/photo-1611950647224-87087c2a09fc?auto=format&fit=crop&w=400&q=80" },
+  { id:40, name:"Solar Charge Controller 20A", price:3200, image:"https://images.unsplash.com/photo-1613750557428-f26b70b0e9f3?auto=format&fit=crop&w=400&q=80" },
+  { id:41, name:"Electric Iron", price:1200, image:"https://images.unsplash.com/photo-1583217340708-5f7e8d0b2b7d?auto=format&fit=crop&w=400&q=80" },
+  { id:42, name:"LED Ceiling Panel 18W", price:1500, image:"https://images.unsplash.com/photo-1611950647224-87087c2a09fc?auto=format&fit=crop&w=400&q=80" },
+  { id:43, name:"Solar Panel Mounting Kit", price:4500, image:"https://images.unsplash.com/photo-1613750557428-f26b70b0e9f3?auto=format&fit=crop&w=400&q=80" },
+  { id:44, name:"Electric Fence Sign", price:300, image:"https://images.unsplash.com/photo-1591035897819-7b4d58f6b78d?auto=format&fit=crop&w=400&q=80" },
+  { id:45, name:"Smart Door Bell", price:4500, image:"https://images.unsplash.com/photo-1611950647224-87087c2a09fc?auto=format&fit=crop&w=400&q=80" },
+  { id:46, name:"Mini LED Spotlight", price:800, image:"https://images.unsplash.com/photo-1611950599830-74d7f9110f3c?auto=format&fit=crop&w=400&q=80" },
+  { id:47, name:"Electric Socket Extension 6 Ports", price:700, image:"https://images.unsplash.com/photo-1611950599830-74d7f9110f3c?auto=format&fit=crop&w=400&q=80" },
+  { id:48, name:"Electric Cooker 4 Plate", price:5000, image:"https://images.unsplash.com/photo-1583217340708-5f7e8d0b2b7d?auto=format&fit=crop&w=400&q=80" },
+  { id:49, name:"LED Garden Light 10W", price:900, image:"https://images.unsplash.com/photo-1611950599830-74d7f9110f3c?auto=format&w=400&q=80" },
+  { id:50, name:"Solar Panel Cable 10m", price:1200, image:"https://images.unsplash.com/photo-1591035897819-7b4d58f6b78d?auto=format&w=400&q=80" },
+  { id:51, name:"Electric Fence Energizer 5J", price:9500, image:"https://images.unsplash.com/photo-1591035897819-7b4d58f6b78d?auto=format&w=400&q=80" }
 ];
+
 
 let cart = [];
 let selectedProduct = null;
