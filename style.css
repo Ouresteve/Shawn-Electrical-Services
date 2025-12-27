@@ -525,15 +525,16 @@ footer {
   width: 70%;
   padding: 0.7rem;
   border-radius: 8px;
-  border: 1px solid #ccc;
-}
+  border: 2px solid black;
 
+}
 .cart-icon {
   font-size: 2rem;
   cursor: pointer;
   font-weight: bold;
   cursor:pointer;
   position: fixed;
+  
   top: 20px;
   right: 20px;
   z-index: 1000;
@@ -542,6 +543,7 @@ footer {
   padding: 0.4rem 0.7rem;
 
 }
+
 
 .cart-icon span {
   background: #00eaff;
@@ -618,6 +620,7 @@ footer {
 }
 
 /* CART PANEL */
+
 .cart-panel {
   position: fixed;
   right: -100%;
