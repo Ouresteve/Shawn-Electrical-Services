@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" class="icon" href="favicon.ico" type="image/x-icon">
+        <meta property="og:type" content="website">
+
+        <meta property="og:image" content="https://shawn-electrical-services.vercel.app/images/logo.png?=3">
+        <meta property="og:image:width" content="1200">
+        <meta property="og:image:height" content="630">
+        <meta property="og:image:secure_url" content="https://shawn-electrical-services.vercel.app/images/logo.png">
+        <meta property="og:title" content="Shawn Electrical Services & Supplies">
+        <meta property="og:description" content="Reliable electrical services and high-quality products for your home and business.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Products | Shawn Electrical Services & Supplies</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="header" id="top">
+            <div class="logo">
+                <img src="favicon.ico">
+                <h1>Shawn Electrical</h1>
+            </div>
+            <nav class="nav">
+                <a href="index.html" >Home</a>
+                <a href="services.html">Services</a>
+                <a href="products.html" class="active">Products</a>
+                <a href="about.html">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+<!-- SEARCH + CART BAR -->
+<section class="products-top">
+  <input type="text" id="searchInput" placeholder="Search products..." />
+  
+  <div class="cart-icon" onclick="toggleCart()">
+    🛒 <span id="cartCount">0</span>
+  </div>
+</section>
+
+<!-- PRODUCTS GRID -->
+<section class="products-grid" id="productsGrid"></section>
+
+<!-- PRODUCT MODAL -->
+<div class="modal" id="productModal">
+  <div class="modal-content">
+    <button class="back-btn" onclick="closeModal()">← Back</button>
+    <img id="modalImage" />
+    <h2 id="modalName"></h2>
+    <p id="modalPrice"></p>
+
+    <label>Quantity</label>
+    <input type="number" id="modalQty" min="1" value="1"  oninput="this.value.replace(/[^0-9]/g,'')"/>
+
+    <button class="btn primary" onclick="addToCart()">Add to Cart</button>
+  </div>
+</div>
+
+<!-- CART PANEL -->
+<div class="cart-panel" id="cartPanel">
+    <button class="back-btn" onclick="untoggleCart()">x</button>
+  <h3>Your Cart</h3>
+  <div id="cartItems"></div>
+  <p class="cart-total">Total: KES <span id="cartTotal">0</span></p>
+  <button class="order-btn" onclick="orderWhatsApp()">Order via WhatsApp</button>
+</div>
+
+
+
+<footer id="contact">
+  <div class="logo">
+    <a href="#top" ><img src="favicon.ico" alt="Shawn Electrical Logo"/></a>
+    <h1>Shawn Electrical Services & Supplies</h1>
+  </div>
+  <div class="footer-icons">
+    <a href="https://wa.me/254718329450?text=Hello%20Shawn%20Electrical%20Services%2C%20I%20would%20like%20assistance%20with%20Electrical%20services.%0AThank%20you." target="_blank">
+      <img src="images/icons/whatsapp.jfif" alt="WhatsApp" />
+    </a>
+       <a href="https://web.facebook.com/oliver.julius.96" target="_blank">
+      <img src="images/icons/facebook.jfif" alt="WhatsApp" />
+    </a>
+    
+    <a href="tel:+254718329450">
+      <img src="https://i.pinimg.com/736x/4a/56/e8/4a56e8884154f8f138742f360ac5f9b8.jpg" alt="Phone" />
+    </a>
+  </div>
+  <p>© 2025 Shawn Electrical  Services and Supplies. All rights reserved.</p>
+</footer>
+
+  <script src="products.js"></script>
+</body>
+</html>
