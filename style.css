@@ -628,6 +628,8 @@ footer {
   color: white;
   padding: 1rem;
   transition: 0.3s;
+  scroll-behavior: smooth;
+  overflow-y: auto;
 }
 
 .cart-panel.open {
