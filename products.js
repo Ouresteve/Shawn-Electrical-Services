@@ -1,7 +1,7 @@
 // PRODUCTS DATA
 const products = [
   // Solar & Power
-  { id: 1, name: "Solar Panel 100W", price: 8000, image: "images/solar_panel.jpg" },
+  { id: 1, name: "Solar Panel 100W", price: 8000, image: "images/solar.jfif" },
   { id: 2, name: "Solar Charge Controller 10A", price: 3500, image: "images/solar_controller.jpg" },
   { id: 3, name: "Inverter 1000W", price: 12000, image: "images/inverter.jpg" },
   { id: 4, name: "Battery 12V 100Ah", price: 14000, image: "images/battery.jpg" },
@@ -29,7 +29,7 @@ const products = [
 
   // Appliances & Fittings
   { id: 18, name: "Extension Socket 3m", price: 1200, image: "images/extension_socket.jpg" },
-  { id: 19, name: "Circuit Breaker 32A", price: 1500, image: "images/circuit_breaker.jpg" },
+  { id: 19, name: "Circuit Breaker 32A", price: 1500, image: "images/circuit1.jfif" },
   { id: 20, name: "Electric Fence Energizer", price: 4500, image: "images/fence_energizer.jpg" },
   { id: 21, name: "Fence Insulators (10pcs)", price: 150, image: "images/fence_insulator.jpg" },
 
