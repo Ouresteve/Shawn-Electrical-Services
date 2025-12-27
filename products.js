@@ -163,7 +163,7 @@ function orderWhatsApp() {
   });
 
   text += `%0A💰 Total: KES ${total}%0A`;
-  text += `%0APayment via Till Number: 123456`;
+  text += `%0APayment via Paybill no: 222111  Account Number: 25133`;
 
   window.open(`https://wa.me/254718329450?text=${text}`, "_blank");
 }

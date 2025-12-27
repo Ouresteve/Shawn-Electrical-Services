@@ -537,7 +537,7 @@ footer {
   right: 20px;
   z-index: 1000;
   color:black;
-  border-radius: 50%;.
+  border-radius: 50%;
   padding: 0.4rem 0.7rem;
 
 }
@@ -553,9 +553,10 @@ footer {
 /* GRID */
 .products-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(100px, 2fr));
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   gap: 1.5rem;
   padding: 1.5rem;
+  
 }
 
 .product-card {
