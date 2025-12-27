@@ -517,6 +517,9 @@ footer {
   display: flex;
   justify-content: space-between;
   padding: 1rem;
+  position:fixed ;
+  width: 100%;
+  z-index: 1000;
 }
 
 .products-top input {
@@ -543,7 +546,7 @@ footer {
 /* GRID */
 .products-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(3, minmax(120px,1fr));
   gap: 1.5rem;
   padding: 1.5rem;
 }
