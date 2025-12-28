@@ -653,3 +653,112 @@ footer {
   border-radius: 8px;
   margin-top: 1rem;
 }
+
+
+
+
+/* ABOUT PAGE */
+
+.about-hero {
+  background: radial-gradient(circle at top, #00e5ff, #001f3f);
+  color: white;
+  text-align: center;
+  padding: 4rem 1.5rem;
+}
+
+.about-hero h2 {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.about-hero p {
+  color: #b3f5ff;
+  font-size: 1.1rem;
+}
+
+/* Sections */
+.about-section {
+  padding: 3rem 1.5rem;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.about-section h3 {
+  color: #00e5ff;
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+}
+
+.about-section p {
+  color: #ddd;
+  line-height: 1.7;
+}
+
+/* Services list */
+.services-list {
+  list-style: none;
+  padding: 0;
+}
+
+.services-list li {
+  padding: 0.6rem 0;
+  color: #ccc;
+  font-size: 1rem;
+}
+
+/* Why us */
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.2rem;
+}
+
+.why-card {
+  background: #0b1d2a;
+  border: 1px solid #00e5ff33;
+  padding: 1.2rem;
+  border-radius: 12px;
+  color: #e6faff;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.why-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Mission */
+.mission {
+  background: #050f18;
+  border-top: 1px solid #00e5ff22;
+  border-bottom: 1px solid #00e5ff22;
+}
+
+/* CTA */
+.about-cta {
+  background: linear-gradient(135deg, #00e5ff, #0077ff);
+  text-align: center;
+  padding: 3rem 1.5rem;
+}
+
+.about-cta h3 {
+  color: #00111f;
+  margin-bottom: 1rem;
+}
+
+.cta-btn {
+  background: #00111f;
+  color: #00e5ff;
+  padding: 0.8rem 1.6rem;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 1.5rem;
+  color: #888;
+  background: #000;
+}
