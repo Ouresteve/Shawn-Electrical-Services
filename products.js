@@ -196,7 +196,14 @@ function toggleCart() {
   document.getElementById("cartPanel").classList.toggle("open");
 }
 function untoggleCart () {
-    document.getElementById("cartPanel").classList.remove("open");
+    if (cart.length===0) {
+      alert("Cart is alreade empty");
+      return;
+    }
+
+    cart.pop();
+    updateCart();
+    
 }
 // WHATSAPP ORDER
 function orderWhatsApp() {
