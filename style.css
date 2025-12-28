@@ -661,7 +661,7 @@ footer {
 
 .about-hero {
   background: radial-gradient(circle at top, #00e5ff, #001f3f);
-  color: white;
+  color: var(--panel-blue);
   text-align: center;
   padding: 4rem 1.5rem;
 }
@@ -672,9 +672,10 @@ footer {
 }
 
 .about-hero p {
-  color: #b3f5ff;
+  color: var(--deep-navy);
   font-size: 1.1rem;
 }
+
 
 /* Sections */
 .about-section {
@@ -698,11 +699,12 @@ footer {
 .services-list {
   list-style: none;
   padding: 0;
+  
 }
 
 .services-list li {
   padding: 0.6rem 0;
-  color: #ccc;
+  color: var(--deep-navy);
   font-size: 1rem;
 }
 
