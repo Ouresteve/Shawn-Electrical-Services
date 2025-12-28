@@ -734,7 +734,10 @@ footer {
   background: #050f18;
   border-top: 1px solid #00e5ff22;
   border-bottom: 1px solid #00e5ff22;
+  justify-items: center;
+  
 }
+
 
 /* CTA */
 .about-cta {
