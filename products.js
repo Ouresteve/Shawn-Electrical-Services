@@ -195,9 +195,9 @@ function updateCart() {
 function toggleCart() {
   document.getElementById("cartPanel").classList.toggle("open");
 }
-function untoggleCart () {
+function clearCart () {
     if (cart.length===0) {
-      alert("Cart is alreade empty");
+      alert("Cart is already empty");
       return;
     }
 
