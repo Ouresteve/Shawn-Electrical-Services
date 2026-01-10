@@ -27,10 +27,10 @@ function type() {
 type();
 
 const images = [
-  "images/service1.jfif",
-  "images/cctv3.jpg",
-  "images/wiring.jpg",
-  "images/hero.jpg"
+  "/images/service1.jfif",
+  "/images/cctv3.jpg",
+  "/images/wiring.jpg",
+  "/images/hero.jpg"
 ];
 
 let imgIndex = 0;
