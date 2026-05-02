@@ -661,7 +661,7 @@ footer {
 
 .about-hero {
   background: radial-gradient(circle at top, #00e5ff, #001f3f);
-  color: var(--panel-blue);
+  color: var(--white);
   text-align: center;
   padding: 4rem 1.5rem;
 }
@@ -669,10 +669,18 @@ footer {
 .about-hero h2 {
   font-size: 2.2rem;
   margin-bottom: 0.5rem;
+  color: var(--electric-blue);
+  text-shadow: 0 0 15px #00e5ff55;
+}
+
+.about-hero h3 {
+  font-size: 1.8rem;
+  color: var(--electric-blue);
+  text-shadow: 0 0 10px #00e5ff55;
 }
 
 .about-hero p {
-  color: var(--deep-navy);
+  color: var(--white);
   font-size: 1.1rem;
 }
 
@@ -704,7 +712,7 @@ footer {
 
 .services-list li {
   padding: 0.6rem 0;
-  color: var(--deep-navy);
+  color: var(--white);
   font-size: 1rem;
 }
 
