@@ -676,7 +676,7 @@ footer {
 .about-hero h3 {
   font-size: 1.8rem;
   color: var(--electric-blue);
-  text-shadow: 0 0 10px var(--deep-navy);
+  text-shadow: 0 0 10px var(--panel-blue);
 }
 
 .about-hero p {
